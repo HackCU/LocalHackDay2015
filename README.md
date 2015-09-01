@@ -1,15 +1,20 @@
-HackCU
+LocalHackDay2015
 ======
 
-Building a hacking culture at the University of Colorado, Boulder. Our first national Hackathon is coming on April 10th, 2015. Signup and more info at [HackCU.org](http://HackCU.org/)
+Here lies our 2015 LocalHackDay site.
 
-## Install
+Building a hacking culture at the University of Colorado, Boulder.
 
-1. Git it: `git clone https://github.com/Zandrr/HackCU HackCU && cd $_`
-1. Make sure you have node.js installed
-1. Install dependencies:
-  - Install `imagemagick` and `graphicsmagick`
-  - `npm install`
+## Image Compression
+**Every time** you add an image, perform a lossless compression. Until this is put into a build script you need to do it manually with the following.
+
+    optipng  img/*.png
+    jpegoptim img/*.jpg
+
+## Install and Run Locally
+
+    git clone https://github.com/HackCU/LocalHackDay2015
+    open index.html
 
 ## Style Guidelines
 
@@ -24,12 +29,3 @@ Before:
 After:
 
     <a href="https://www.facebook.com/letsHackCU" target="_blank">Visit our facebook</a>
-
-## Deployment
-
-1. Check the site to make sure that everything looks OK. Give it about 30 seconds to build.
-  - `gulp serve:dist`
-1. Make sure your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` environment variables
-   are set. Hit up @ianks for those keys.
-1. Publish the site to production:
-  - `gulp publish`
