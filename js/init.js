@@ -152,7 +152,6 @@
 
       window.location.hash = '#/cities/'+event_id+'/register';
 
-      $('a#attendee-signup').click();
       $('.hacker-register-for-localhackday select#event_id').select2('val', event_id);
     });
   });
@@ -244,46 +243,6 @@
 }(jQuery));
 
 
-
-
-
-
-
-
-// START JQUERY
-(function($){
-
-  $('a#attendee-signup').click(function(e){
-    e.preventDefault();
-
-    var _this;
-    _this = $('#modal-attendee-signup');
-
-    _this.openModal();
-    _this.find('p a.modal-close').unbind().click(function(e){
-      e.preventDefault();
-      _this.find('p a.modal-close').closeModal();
-    });
-
-    _this.find("input#first_name").focus();
-    _this.find("label[for=first_name]").addClass("active");
-
-    $('.hacker-register-for-localhackday select#event_id').select2('val', '');
-
-    return false;
-  });
-
-// END JQUERY
-}(jQuery));
-
-
-
-
-
-
-
-
-
 // START JQUERY
 (function($){
   // SELECT 2
@@ -326,7 +285,6 @@
       city = window.location.hash;
       city = city.substring(9, city.length - 9); // remove the #/cities/ prefix and the /register suffix
 
-      $("a#attendee-signup").click();
       $("form.hacker-register-for-localhackday select#event_id").select2('val', city);
     }
   };
@@ -368,9 +326,6 @@
         }
 
         Localhackday.registerNewHackerForEvent(event_id, first_name, last_name, email, mobile, school, year, major, student_type, function(){
-          $("#modal-attendee-signup").find("h4").text("You're registered as an attendee!");
-          $("#modal-attendee-signup").find("p").html("We can't wait to have you join us at Local Hack Day this year. It's going to be really awesome.<br />In a few moments, you should receive an email confirmation about your registration!");
-          $("#modal-attendee-signup").find("form").remove();
 
           // Change to original view
           changeToOriginalView();
