@@ -81,13 +81,13 @@ nav a:hover {
 }
 
 .hello-opener {
-  min-height: 100%;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background: url(../img/Flatirons.jpg) top left;
+  background-repeat: no-repeat;
 }
 
 .center.lhd-logo {
