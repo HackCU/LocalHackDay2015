@@ -81,7 +81,6 @@ nav a:hover {
 }
 
 .hello-opener {
-  min-height: 100%;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
