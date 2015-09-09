@@ -345,8 +345,8 @@ h6.lhd-event-date {
 /* Join Us */
 
 #join {
-    position: relative;
-    padding-bottom: 8em;
+  position: relative;
+  padding-bottom: 8em;
 }
 
 .join .about-details p {
@@ -366,6 +366,26 @@ h6.lhd-event-date {
 
 .join-button:hover {
   opacity: 0.7;
+}
+
+#code_of_conduct {
+  padding-bottom: 1em;
+  margin: 0;
+}
+.conduct-button {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding: 15px 50px;
+  transition: all ease 0.8s;
+}
+
+.conduct-bg {
+  background: #dc2d2d;
+  text-align:center;
 }
 
 /*Footer*/
