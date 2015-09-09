@@ -384,8 +384,9 @@ h6.lhd-event-date {
 }
 
 .conduct-bg {
-  background: #dc2d2d;
+  background: gray;
   text-align:center;
+  padding-bottom: 20px;
 }
 
 /*Footer*/
@@ -764,4 +765,12 @@ h5.cell-title {
   .navi-skrollz {
     display: none !important;
   }
+}
+
+#codeConduct {
+  padding-bottom: 10px;
+}
+
+#mlhHeart {
+  padding-top: 30px;
 }
