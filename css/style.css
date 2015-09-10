@@ -87,6 +87,7 @@ nav a:hover {
   -o-background-size: cover;
   background-size: cover;
   background: url(../img/Flatirons.jpg) top left;
+  background-repeat: no-repeat;
 }
 
 .center.lhd-logo {
@@ -344,8 +345,8 @@ h6.lhd-event-date {
 /* Join Us */
 
 #join {
-    position: relative;
-    padding-bottom: 8em;
+  position: relative;
+  padding-bottom: 8em;
 }
 
 .join .about-details p {
@@ -365,6 +366,27 @@ h6.lhd-event-date {
 
 .join-button:hover {
   opacity: 0.7;
+}
+
+#code_of_conduct {
+  padding-bottom: 1em;
+  margin: 0;
+}
+.conduct-button {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding: 15px 50px;
+  transition: all ease 0.8s;
+}
+
+.conduct-bg {
+  background: gray;
+  text-align:center;
+  padding-bottom: 20px;
 }
 
 /*Footer*/
@@ -743,4 +765,12 @@ h5.cell-title {
   .navi-skrollz {
     display: none !important;
   }
+}
+
+#codeConduct {
+  padding-bottom: 10px;
+}
+
+#mlhHeart {
+  padding-top: 30px;
 }
