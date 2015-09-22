@@ -200,7 +200,6 @@ h6.lhd-event-date {
 }
 
 /* Logo Section */
-
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -216,9 +215,6 @@ h6.lhd-event-date {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
-}
-.bg-light-gray {
-  background-color: #e0e0e0;
 }
 
 
