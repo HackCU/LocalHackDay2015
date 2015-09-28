@@ -131,37 +131,32 @@
 
 
 
-<section id="portfolio" class="bg-light-gray">
-  <div class="container">
-    <div class="row">
-      <div id="sponsors" class="intro col s12">
-        <h4 class="center-align">Sponsors</h4>
-        <div class="join-btn center col s12" style="padding-top: 40px">
-          <a href="mailto:alexander.campbell@colorado.edu" class="join-button">Become a Sponsor</a>
-        </div>
-        <br>
+ <section id="portfolio" class="bg-light-gray">
+    <div class="container">
+      <div class="row">
+                 <div id="sponsors" class="intro col s12">
+                     <h4 class="center-align">Sponsors</h4>
+                     <div class="join-btn center col s12" style="padding-top: 40px">
+                         <a href="mailto:alexander.campbell@colorado.edu" class="join-button">Become a Sponsor</a>
+                     </div>
+                     <br>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-3 col-sm-6 center portfolio-item">
+                     <a target="_blank" href="http://www.twitter.com/">
+                         <img src="img/twitter.png" class="img-responsive" alt="" style="height: 240px; padding-top: 40px">
+                     </a>
+                 </div>
+                 <div class="col-md-3 col-sm-6 center portfolio-item">
+                     <a target="_blank" href="https://ozocoffee.com/">
+                         <img src="img/ozo-logo.png" class="img-responsive img-centered" alt="" style="height: 300px; padding-top: 40px">
+                     </a>
+                     </div>
+                 </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-6 center portfolio-item">
-        <a target="_blank" href="http://www.twitter.com/">
-          <img src="img/twitter.png" class="img-responsive" alt="" style="height: 240px; padding-top: 40px">
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-6 center portfolio-item">
-        <a target="_blank" href="http://www.webroot.com/us/en/">
-            <img src="img/webroot.png" class="img-responsive" style="height: 240px; padding-top: 40px">
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-6 center portfolio-item">
-        <a target="_blank" href="https://ozocoffee.com/">
-          <img src="img/ozo-logo.png" class="img-responsive" alt="" style="height: 300px">
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
+  </section>
 
 
   <section id="join" class="join">
